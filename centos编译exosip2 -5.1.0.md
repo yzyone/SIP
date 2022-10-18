@@ -34,7 +34,8 @@ https://c-ares.haxx.se/
 
 可选命令：
 
-> –-prefix=/home/sip/设置安装目录，make install时生成的文件会放在这里 –-disable-shared
+> –-prefix=/home/sip/设置安装目录，make install时生成的文件会放在这里 
+> --enable-static 禁止生成动态库，只生成静态库
 
 ## 4、编译exosip库 ##
 
